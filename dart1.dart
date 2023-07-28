@@ -1,4 +1,4 @@
-void main() {
+/* void main() {
   print("hello");
   print("first dart program");
   print(4);
@@ -30,3 +30,4 @@ void main() {
   // or
   print("the length of the string is ${name.length} ");
 }
+ */
