@@ -16,4 +16,7 @@ void main() {
   int num2 = num1.toInt();
 
   print(num2);
+  // Lists
+  List<String> country = ["India", "USA", "Japan"];
+  print(country[0]);
 }
