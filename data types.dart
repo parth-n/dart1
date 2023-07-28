@@ -18,5 +18,20 @@ void main() {
   print(num2);
   // Lists
   List<String> country = ["India", "USA", "Japan"];
-  print(country[0]);
+  print(country[0]); // prints India
+  print(country.length);
+
+  // Sets
+
+  Set<String> countries = {"USA", "India", "Japan"};
+  print(countries);
+
+  // Maps
+  Map<String, String> map1 = {
+    "India": "Delhi",
+    "Nepal": "kathmandu",
+    "Japan": "Tokyo"
+  };
+
+  print(map1["India"]);
 }
