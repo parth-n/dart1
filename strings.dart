@@ -8,22 +8,29 @@ void main() {
 
 // properties of strings
   String value = "hello";
-  print(value.codeUnits);
-  print(value.isEmpty);
-  print(value.isNotEmpty);
-  print(value.length);
+  //print(value.codeUnits);
+  //print(value.isEmpty);
+  //print(value.isNotEmpty);
+  //print(value.length);
 
   // methods in string
   //tolowercase() , toUppperCase()
   //trim
   String text = "my  name is parth nepalia";
-  print(text.toUpperCase());
-  print(text.toLowerCase());
-  print(text.compareTo(value));
-  print(text.trim());
-  print(text.replaceAll("name", "Name"));
+  //print(text.toUpperCase());
+  //print(text.toLowerCase());
+  //print(text.compareTo(value));
+  //print(text.trim());
+  // print(text.replaceAll("name", "Name"));
 
   String names = "Ram, Shyam, Hari , Gopal";
-  List<String> listnames = names.split(" | ");
-  print(listnames);
+  var listnames = names.split(";");
+  //print(listnames);
+
+  int number = 10;
+  String value1 = number.toString();
+  print(value);
+  //substring
+
+  print("The substring is : ${text.substring(11)}");
 }
