@@ -29,8 +29,11 @@ void main() {
 
   int number = 10;
   String value1 = number.toString();
-  print(value);
+  // print(value1.runtimeType);
   //substring
 
   print("The substring is : ${text.substring(11)}");
+  // reverse a string
+  String input = "hello";
+  print("$input Reverse is ${input.split('').reversed.join()}");
 }
