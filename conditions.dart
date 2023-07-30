@@ -5,7 +5,7 @@ void main() {
 
   bool isMarried = false;
 
-  if (isMarried) {
+  if (isMarried == true) {
     print("you are married");
   } else {
     print("you are single");
