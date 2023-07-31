@@ -1,4 +1,4 @@
-# dart1
+# DART REPOSITORY
 DART basics 
 
 In this repository, I have uploaded files of my dart codes while learning dart language.
