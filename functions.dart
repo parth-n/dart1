@@ -47,11 +47,13 @@ void main() {
   var addition = sum(10, 10);
   print("the sum is $addition");
 
-  // with arrow function
+  // with arrow function sum function
   sumArrow(int number1, int number2) => number1 + number2;
 
   int a = 10;
   int b = 10;
   int result = sumArrow(a, b);
   print("the sum is $result");
+
+  // scope in dart
 }
