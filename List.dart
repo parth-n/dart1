@@ -63,4 +63,20 @@ void main() {
   print("this is before replace range $list5");
   list5.replaceRange(0, 4, [5, 6, 7, 8]);
   print("this is after replace range $list5");
+
+  // remove list items
+
+  List<String> list6 = ["one", "two", "three", "four"];
+  print(" before $list6");
+  list6.remove("one");
+  print("after $list6");
+
+  list6.removeAt(0);
+  print("remove at 0 : $list6");
+
+  List<String> list7 = ["one", "two", "three", "four"];
+  list7.removeLast();
+  print("after remove last : $list7");
+  list7.removeRange(2, 3);
+  print("after remove range : $list7");
 }
