@@ -1,4 +1,4 @@
-import 'dart:math';
+// ignore_for_file: dead_code
 
 void main() {
   List<String> names = ["Ram", "John", "Mark", "Rocky"];
@@ -10,6 +10,7 @@ void main() {
     print("name is ${names[i]} and the age is ${integer[i]} .");
   }
   // mixed list
+  // ignore: unused_local_variable
   var mixed = [10, "john", 18.8];
   // type of lists
   // fixed length and growable length (mostly used)
