@@ -87,4 +87,27 @@ void main() {
   });
 
   list8.forEach((element) => print(element));
+
+  // multiply all values by 2 of the list
+  var doubled_list8 = list8.map((e) => e * 2);
+  print(doubled_list8);
+
+  // combine two or more lists in dart
+  List<String> list9 = ["mark", "john", "jack"];
+  List<String> list10 = ["one", "two", "three"];
+
+  List<String> listAll = [...list9, ...list10];
+  print(listAll);
+
+  // conditions in list
+
+  bool sad = false;
+  List<String> list11 = ["one", "two", "three", if (sad) "four"];
+  print(list11);
+
+  //where-in in dart
+
+  List<int> list12 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+  List<int> even_num = list12.where((element) => element.isEven).toList();
+  print(even_num);
 }
