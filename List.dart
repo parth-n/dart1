@@ -79,4 +79,12 @@ void main() {
   print("after remove last : $list7");
   list7.removeRange(2, 3);
   print("after remove range : $list7");
+
+  // loops in the list
+  List<int> list8 = [20, 30, 40, 50, 60];
+  list8.forEach((element) {
+    print(element);
+  });
+
+  list8.forEach((element) => print(element));
 }
