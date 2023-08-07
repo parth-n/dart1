@@ -39,4 +39,28 @@ void main() {
   print(map3);
   map3.remove("sat");
   print(map3);
+
+  // looping over element of a map
+
+  Map<String, dynamic> map4 = {
+    'title': 'mission',
+    'author': 'kuber',
+    'page': '233'
+  };
+  print("map4 is $map4");
+  print("the loop is");
+
+  for (MapEntry map4 in map4.entries) {
+    print("key is ${map4.key} and its value is ${map4.value}");
+  }
+
+// looping in map using for each
+
+  print("  ");
+  print("this is for each loop");
+
+  print("  ");
+  map4.forEach((key, value) {
+    print("key is $key and the value is $value ");
+  });
 }
