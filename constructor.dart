@@ -34,6 +34,14 @@ class Employee {
   }
 }
 
+// const constructor
+class point {
+  final int x;
+  final int y;
+
+  const point(this.x, this.y);
+}
+
 void main() {
   Person p = Person("john", 30);
   print(p.name);
@@ -42,4 +50,8 @@ void main() {
 
   Employee e1 = Employee("harry", 22);
   e1.display1();
+  // const constructor
+  // all the properties of the class must be final
+  point p1 = const point(1, 2);
+  print("the p1 hash code is : ${p1.hashCode}");
 }
